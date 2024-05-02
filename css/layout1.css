@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+/* ------------Nav or Menu-----------*/
+.flex-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+}
+
+.container-menu li {
+    margin-right: 15px; /* Espacio entre elementos de la lista */
+}
+
+.container-menu li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+.container-menu li a {
+    color: white;
+    padding: 10px;
+}
+
+.container-menu li a:hover {
+    background-color: orange;
+    
+}
+/*-----------Logo-----------*/
+.logo {
+    max-height: 48px;
+    background-color: white;
+}
+
+
+.container {
+    margin: 15px;
+}
+
+.section {
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+.section-container {
+    padding: 10px;
+    margin: 10px;
+}
+
+.section-information {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.section-title {
+    padding: 20px 10px;
+    margin-bottom: 15px;
+    font-size: 2rem
+}
+
+.section-description {
+    font-size: 20px;
+}
+
+.section-img {
+    width: 30%;
+    float: left;
+    padding: 20px;
+}
+
+/*------------LAYOUT 2----------------*/
+
+.img-right {
+    float: right;
+}
+
+
+/* --------------FOOTER---------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-footer li a{
+    color: white;
+    padding: 15px;
+}
+
+.card-footer li a:hover {
+    color: orange;
+}

@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: white;
+    font-size: 16px;
+}
+
+/* ------------Nav or Menu-----------*/
+.flex-menu {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.container-menu {
+    display: flex;
+    align-items: center;
+}
+
+.container-menu li {
+    margin-right: 15px; /* Espacio entre elementos de la lista */
+}
+
+.container-menu li:last-child {
+    margin-right: 0; /* Eliminar el margen derecho del último elemento */
+}
+
+.container-menu li a {
+    color: white;
+    padding: 10px;
+}
+
+.container-menu li a:hover {
+    background-color: orange;
+    
+}
+/*-----------Logo-----------*/
+.logo {
+    max-height: 48px;
+    background-color: white;
+}
+
+/* --------------Concainer-layouts and section code---------------*/
+.container {
+    margin: 15px;
+}
+
+.section {
+    height: 555px;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+.container-layouts {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    gap: 50px;
+}
+
+
+.card-layouts-btn {
+    border: 2px solid white;
+    width: 20%;
+    padding: 15px;
+}
+
+
+ .card-layouts-container {
+    background-color: aquamarine;
+    border: 2px solid white;
+    width: 80%;
+    height: 500px;
+    padding: 15px;
+}
+
+/* --------------Layouts buttons code---------------*/
+
+.card-layouts-btn {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-btn {
+   position: relative;
+   left: 30%;
+}
+
+.card-btn li {
+    padding: 5px;
+}
+
+.card-btn li a{
+    color: #000000;
+    padding: 10px ;
+    font-size: 20px;  
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card-btn li a:hover{
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+
+/* --------------layouts-container---------------*/
+
+.layouts-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.layouts-box {
+    margin: 15px;
+    padding: 15px;
+    flex: 1 0  21%; /* explanation below */
+    border: 2px solid#FFFFFF;
+    
+}
+
+
+/* --------------FOOTER---------------*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    
+}
+
+.card-footer li a{
+    color: white;
+    padding: 15px;
+}
+
+.card-footer li a:hover {
+    color: orange;
+}
